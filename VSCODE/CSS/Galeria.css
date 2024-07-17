@@ -46,4 +46,11 @@ body {
     width: 100%; /* Define a largura das imagens como 100% do contêiner pai (gallery-item) */
     height: auto; /* Define a altura das imagens de forma automática para manter a proporção */
     object-fit: cover; /* Ajusta a imagem para cobrir totalmente o contêiner pai, podendo cortar parte da imagem */
+    transition: transform 0.3s ease;
+  }
+
+  .gallery img:hover {
+    transform: scale(
+      1.1
+    ); 
   }
